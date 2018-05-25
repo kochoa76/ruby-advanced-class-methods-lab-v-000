@@ -48,6 +48,7 @@ end
     song = self.new 
     artist.name = artist 
     song.name = song 
-    
+    song 
+  end 
   
 end
