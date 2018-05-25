@@ -43,7 +43,10 @@ end
   def Song.new_from_filename(filename)
     parts = filename.split("-")
     artist = parts[0]
-    song= parts[1].delete_if
+    song= parts[1].delete(".mp3")
+    
+    artist.name = artist 
+    song.name = song 
     
   
 end
