@@ -41,7 +41,9 @@ def Song.alphabetical
 end 
   
   def Song.new_from_filename(filename)
-    name = filename.split(/\-)
+    parts = filename.split("-")
+    artist = parts[0]
+    song= parts[1].delete_if
     
   
 end
