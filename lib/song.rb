@@ -46,8 +46,8 @@ end
     song_name= parts[1].gsub(".mp3", "")
     
     song = self.new 
-    artist.name = artist_name 
-    song.name = song_name 
+    artist_name.name = artist_name 
+    song_name.name = song_name 
     song 
   end 
   
