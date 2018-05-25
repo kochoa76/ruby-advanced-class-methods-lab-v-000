@@ -32,4 +32,12 @@ class Song
    @@all.detect{|s| s.name == name } 
  end 
 
+def Song.find_or_create_by_name(name)
+  if self.name = name 
+    Song.find_by_name
+    else 
+    Song.create_by_name
+  end
+  
+  
 end
