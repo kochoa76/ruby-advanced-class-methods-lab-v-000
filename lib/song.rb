@@ -15,5 +15,9 @@ class Song
    @@all<< song 
    return song 
  end 
+ 
+ def Song.new_by_name(name)
+   @name=name 
+ end
 
 end
