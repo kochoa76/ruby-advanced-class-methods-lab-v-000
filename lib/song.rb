@@ -37,7 +37,7 @@ def Song.find_or_create_by_name(name)
   end
 
 def Song.alphabetical
-  @@all.sort_by{|w| w.sort}
+  @@all.sort_by
 end 
   
 end
