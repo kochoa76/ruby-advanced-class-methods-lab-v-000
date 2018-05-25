@@ -45,6 +45,7 @@ end
     artist = parts[0]
     song= parts[1].delete(".mp3")
     
+    song = self.new 
     artist.name = artist 
     song.name = song 
     
